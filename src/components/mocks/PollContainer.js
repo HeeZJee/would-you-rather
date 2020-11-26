@@ -2,8 +2,16 @@ import React, { Component } from 'react';
 import { Segment, Header, Grid, Image } from 'semantic-ui-react';
 import PollQuestion from './PollQuestion';
 import PollResult from './PollResult';
+import PropTypes from 'prop-types';
 
 export class PollContainer extends Component {
+  static propTypes = {
+    avatar: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    optionOne: PropTypes.object.isRequired,
+    optionTwo: PropTypes.object.isRequired,
+    showResult: PropTypes.bool.isRequired
+  };
   state = {
     showResult: this.props.showResult
   };
@@ -32,8 +40,8 @@ export class PollContainer extends Component {
               {this.state.showResult === false ? (
                 <PollQuestion {...this.props} onSubmit={this.handleSubmit} />
               ) : (
-                <PollResult {...this.props} />
-              )}
+                  <PollResult {...this.props} />
+                )}
             </Grid.Column>
           </Grid.Row>
         </Grid>

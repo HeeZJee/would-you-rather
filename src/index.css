@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.tab .ui.tabular.menu .active.item {
+  background: none #fff;	  background: none #fff;
+}	
+.ui.radio.checkbox {
+  margin-left: 20px;
+  margin-bottom: 4px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+i.compact.icon {
+  margin: 0 .5em 0 0!important;
+}
+.ui.ribbon.label.vote {
+  margin-bottom: 8px;
 }

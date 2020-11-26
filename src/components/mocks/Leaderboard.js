@@ -5,8 +5,7 @@ import {
   Header,
   Image,
   Label,
-  Divider,
-  Icon
+  Divider
 } from 'semantic-ui-react';
 import { leaderboardData, users } from './_data';
 
@@ -14,6 +13,10 @@ const trophyColor = ['yellow', 'grey', 'orange'];
 
 export class Leaderboard extends Component {
   componentDidMount = () => {
+    // console.log(users);
+    // console.log('Object.keys(users)', Object.keys(users));
+    // console.log('Object.values(users)', Object.values(users));
+    // shape data
     const newArr = Object.values(users)
       .map(user => ({
         name: user.name,
@@ -23,6 +26,8 @@ export class Leaderboard extends Component {
       }))
       .sort((a, b) => a.total - b.total)
       .reverse();
+
+    console.log('newArr', newArr);
   };
   render() {
     return (

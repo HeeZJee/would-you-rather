@@ -1,8 +1,8 @@
 let users = {
     sarahedo: {
-        id: 'sarahedo',
-        name: 'Sarah Edo',
-        avatarURL: ,
+        id: 'goku',
+        name: 'Son Goku',
+        avatarURL: "https://avatarfiles.alphacoders.com/782/thumb-1920-78200.png",
         answers: {
             "8xf0y6ziyjabvozdd253nd": 'optionOne',
             "6ni6ok3ym7mf1p33lnez": 'optionTwo',
@@ -12,9 +12,9 @@ let users = {
         questions: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
     },
     tylermcginnis: {
-        id: 'tylermcginnis',
-        name: 'Tyler McGinnis',
-        avatarURL: ,
+        id: 'vegeta',
+        name: 'Prince Vegeta',
+        avatarURL: "https://avatarfiles.alphacoders.com/739/thumb-1920-73989.jpg",
         answers: {
             "vthrdm985a262al8qx3do": 'optionOne',
             "xj352vofupe1dqz9emx13r": 'optionTwo',
@@ -22,9 +22,9 @@ let users = {
         questions: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do'],
     },
     johndoe: {
-        id: 'johndoe',
-        name: 'John Doe',
-        avatarURL: ,
+        id: 'frieza',
+        name: 'Frieza',
+        avatarURL: "https://avatarfiles.alphacoders.com/732/thumb-1920-73275.png",
         answers: {
             "xj352vofupe1dqz9emx13r": 'optionOne',
             "vthrdm985a262al8qx3do": 'optionTwo',

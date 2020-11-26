@@ -8,8 +8,17 @@ import {
   Button,
   Icon
 } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
+
 
 export class PollResult extends Component {
+
+  static propTypes = {
+    history: PropTypes.object.isRequired,
+    optionOne: PropTypes.object.isRequired,
+    optionTwo: PropTypes.object.isRequired
+  };
+
   handleClick = () => {
     this.props.history.push('/');
   };

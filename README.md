@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Would You Rather...? Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **web app** that allows a logged user play the famous game
+**Would You Rather...?**.
 
-## Available Scripts
+Users need to be logged into the app in order to be able to see the application
+content and the game woks like so:
 
-In the project directory, you can run:
+- An user is able to log in and log out. But only when being logged an user can
+  actually play the game.
+- An user is presented a question in the form: **Would You Rather? [Option A] or
+  [Option B]**
+- The logged user can choose either option A or option B, but only once, after a
+  question is played it can't be played again.
+- The logged user can add new questions.
+- The logged user can see a board with the scoring of all the players.
 
-### `yarn start`
+So this app allows logged users answer questions, see already answered
+questions, create new questions and see the users on a ranking leaderboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Details](#details)
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone this repository on your local machine:
 
-### `yarn build`
+```sh
+cd would-you-rather
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Go to http://localhost:3000/ and see the app in action.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Log in with one of the available users on the dropdown of the initial screen and
+enjoy the game!
 
-### `yarn eject`
+## Details
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Please refer to the [details section](DETAILS.md) for all available commands and
+instructions. These capabilities come mainly from create-react-app boilerplate.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Aside of that this repo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Has pre-commit task that enforces some quality in the code before allowing
+  commiting
+- Has a pre-push task that enforces some validation in the code before allowing
+  pushing
+- Uses lint for type checking
+- Uses prettier for formating
+- Uses jest to run the tests
+- Has a test coverage task
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Demo
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can check this project live
+[www.heezjee-would-you-rather.surge.sh/](http://heezjee-would-you-rather.surge.sh/)

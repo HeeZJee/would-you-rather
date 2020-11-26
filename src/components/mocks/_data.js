@@ -1,42 +1,42 @@
 export const userQuestionData = {
   unanswered: [
     {
+      qid: 2,
+      author: 'Meryem Jow',
+      avatar: 'tiger.png',
+      question: 'Move to Germany'
+    },
+    {
       qid: 1,
       author: 'James Priest',
-      avatar: 'koala.png',
-      question: 'Jump out of an airplane'
+      avatar: 'fox.png',
+      question: 'Visit a friend in a foreign country'
     },
     {
-      qid: 2,
-      author: 'Evi Monday',
+      qid: 5,
+      author: 'Evidence Monday',
       avatar: 'rabbit.png',
-      question: 'Surprise a friend'
-    },
-    {
-      qid: 3,
-      author: 'Brittini Bryant',
-      avatar: 'dog.png',
-      question: 'Teach a dog to code'
+      question: 'Be able to grant one wish'
     }
   ],
   answered: [
     {
       qid: 4,
-      author: 'Meryem Jow',
-      avatar: 'tiger.png',
-      question: 'Know how to speak fluent German'
+      author: 'Brittini Bryant',
+      avatar: 'dog.png',
+      question: 'Teach a dog to code'
     },
     {
-      qid: 5,
-      author: 'Peter Cruckshank',
-      avatar: 'gorilla.png',
-      question: 'Have a seamless MERN app deployment'
+      qid: 3,
+      author: 'Joeylene Rivera',
+      avatar: 'lion.png',
+      question: 'Run your own dev company'
     },
     {
       qid: 6,
-      author: 'Joey Rivera',
-      avatar: 'lion.png',
-      question: 'Run your own dev company'
+      author: 'Peter Cruckshank',
+      avatar: 'gorilla.png',
+      question: 'Have a seamless MERN app deployment'
     }
   ]
 };
@@ -52,6 +52,66 @@ export const questionData = {
   optionTwo: {
     votes: ['brittinibryant'],
     text: 'Netflix and chill.'
+  }
+};
+
+export const leaderboardData = [
+  {
+    id: 'brittinibryant',
+    name: 'Brittini Bryant',
+    avatar: 'dog.png',
+    answerCount: 11,
+    questionCount: 4
+  },
+  {
+    id: 'joeylenerivera',
+    name: 'Joeylene Rivera',
+    avatar: 'lion.png',
+    answerCount: 7,
+    questionCount: 4
+  },
+  {
+    id: 'evidencemonday',
+    name: 'Evidence Monday',
+    avatar: 'rabbit.png',
+    answerCount: 4,
+    questionCount: 3
+  }
+];
+
+export const users = {
+  sarahedo: {
+    id: 'sarahedo',
+    name: 'Sarah Edo',
+    // avatarURL: ,
+    answers: {
+      '8xf0y6ziyjabvozdd253nd': 'optionOne',
+      '6ni6ok3ym7mf1p33lnez': 'optionTwo',
+      am8ehyc8byjqgar0jgpub9: 'optionTwo',
+      loxhs1bqm25b708cmbf3g: 'optionTwo'
+    },
+    questions: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
+  },
+  tylermcginnis: {
+    id: 'tylermcginnis',
+    name: 'Tyler McGinnis',
+    // avatarURL: ,
+    answers: {
+      vthrdm985a262al8qx3do: 'optionOne',
+      xj352vofupe1dqz9emx13r: 'optionTwo'
+    },
+    questions: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do']
+  },
+  johndoe: {
+    id: 'johndoe',
+    name: 'John Doe',
+    // avatarURL: ,
+    answers: {
+      xj352vofupe1dqz9emx13r: 'optionOne',
+      vthrdm985a262al8qx3do: 'optionTwo',
+      '6ni6ok3ym7mf1p33lnez': 'optionTwo'
+    },
+    questions: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r']
   }
 };
 

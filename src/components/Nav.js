@@ -28,7 +28,7 @@ class Nav extends Component {
           <Menu.Item name="leader board" as={NavLink} to="/leaderboard" />
           <Menu.Menu position="right">
             <Menu.Item>
-              <span>
+              <span style={{ display: 'flex', alignItems: 'center' }}>
                 <Image
                   src={users[authUser].avatarURL}
                   avatar
@@ -54,7 +54,7 @@ class Nav extends Component {
         <Responsive as={Fragment} minWidth={375} maxWidth={650}>
           <Grid columns={2} padded="vertically">
             <Grid.Row>
-              <Grid.Column>
+              <Grid.Column style={{ display: "flex", alignItems: 'center' }}>
                 <Image
                   src={users[authUser].avatarURL}
                   avatar
@@ -93,7 +93,7 @@ class Nav extends Component {
         <Responsive as={Fragment} maxWidth={374}>
           <Grid padded="vertically" columns={1}>
             <Grid.Row>
-              <Grid.Column>
+              <Grid.Column style={{ display: "flex", alignItems: 'center' }} >
                 <Image
                   src={users[authUser].avatarURL}
                   avatar

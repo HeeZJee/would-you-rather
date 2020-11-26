@@ -35,14 +35,14 @@ export class Nav extends Component {
                     />
                     <Menu.Menu position="right">
                         <Menu.Item>
-                            <span style={{ display: "flex", alignItems: "center", }}>
+                            <span>
                                 <Image
-                                    src="https://avatarfiles.alphacoders.com/782/thumb-1920-78200.png"
+                                    src="images/avatars/fox.png"
                                     avatar
                                     spaced="right"
                                     verticalAlign="bottom"
                                 />
-                Son Goku
+                James Priest
               </span>
                         </Menu.Item>
                         <Menu.Item>
@@ -60,14 +60,14 @@ export class Nav extends Component {
                 <Responsive as={Fragment} minWidth={375} maxWidth={650}>
                     <Grid columns={2} padded="vertically">
                         <Grid.Row>
-                            <Grid.Column style={{ display: "flex", alignItems: "center", }}>
+                            <Grid.Column>
                                 <Image
-                                    src="https://avatarfiles.alphacoders.com/782/thumb-1920-78200.png"
+                                    src="images/avatars/fox.png"
                                     avatar
                                     spaced="right"
                                     verticalAlign="bottom"
                                 />
-                Son Goku
+                James Priest
               </Grid.Column>
                             <Grid.Column verticalAlign="bottom" textAlign="right">
                                 <Button
@@ -106,14 +106,14 @@ export class Nav extends Component {
                 <Responsive as={Fragment} maxWidth={374}>
                     <Grid padded="vertically" columns={1}>
                         <Grid.Row>
-                            <Grid.Column style={{ display: "flex", alignItems: "center", }}>
+                            <Grid.Column>
                                 <Image
-                                    src="https://avatarfiles.alphacoders.com/782/thumb-1920-78200.png"
+                                    src="images/avatars/fox.png"
                                     avatar
                                     spaced="right"
                                     verticalAlign="bottom"
                                 />
-                Son Goku
+                James Priest
                 <Button
                                     content="Logout"
                                     labelPosition="right"

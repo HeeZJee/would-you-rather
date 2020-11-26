@@ -66,8 +66,7 @@ export class PollQuestion extends Component {
 }
 
 function mapStateToProps({ authUser }, { match }) {
-  // const { question_id } = match.params;
-  // const question = questions[question_id];
+
 
   return {
     authUser
@@ -78,4 +77,3 @@ export default connect(
   mapStateToProps,
   { handleSaveQuestionAnswer }
 )(PollQuestion);
-// export default PollQuestion;

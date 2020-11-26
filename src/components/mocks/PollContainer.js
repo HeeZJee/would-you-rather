@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Segment, Header, Grid, Image } from 'semantic-ui-react';
 import PollQuestion from './PollQuestion';
 import PollResult from './PollResult';
-import PropTypes from 'prop-types';
 
 export class PollContainer extends Component {
   static propTypes = {
@@ -40,8 +40,8 @@ export class PollContainer extends Component {
               {this.state.showResult === false ? (
                 <PollQuestion {...this.props} onSubmit={this.handleSubmit} />
               ) : (
-                  <PollResult {...this.props} />
-                )}
+                <PollResult {...this.props} />
+              )}
             </Grid.Column>
           </Grid.Row>
         </Grid>
